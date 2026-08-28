@@ -1,0 +1,26 @@
+{
+  "name": "bank_webhook_handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "build": "tsc",
+  "db:generate": "prisma generate",
+  "db:migrate": "prisma migrate dev",
+  "db:deploy": "prisma migrate deploy"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@repo/db": "*",
+    "@types/express": "^5.0.5",
+    "dotenv": "^16.0.3",
+    "esbuild": "^0.25.11",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6"
+  }
+}
