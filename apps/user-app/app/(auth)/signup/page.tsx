@@ -47,7 +47,9 @@ export default function SignUp() {
                                 })
                             }
 
-                            alert("Password Does Not Match")
+                            else{
+                                alert("Password Does Not Match")
+                            }
                         }}>
                             Submit
                         </Button>

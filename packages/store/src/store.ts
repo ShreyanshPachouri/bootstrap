@@ -1,7 +1,7 @@
-export { useUser } from "./hooks/useUser.js";
-export { useBalance } from "./hooks/useBalance.js";
-export { useTranx } from "./hooks/useTranx.js";
-export { useTransfer } from "./hooks/useTransfer.js";
-export { useP2P } from "./hooks/useP2P.js";
-export { useTranxList } from "./hooks/useTranxList.js";
-export { useTheme } from "./hooks/useTheme.js";
+export { useUser } from "./hooks/useUser";
+export { useBalance } from "./hooks/useBalance";
+export { useTranx } from "./hooks/useTranx";
+export { useTransfer } from "./hooks/useTransfer";
+export { useP2P } from "./hooks/useP2P";
+export { useTranxList } from "./hooks/useTranxList";
+export { useTheme } from "./hooks/useTheme";

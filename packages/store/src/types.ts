@@ -1,4 +1,4 @@
-export type { UserState } from "./hooks/useUser.js";
-export type { useTransferState } from "./hooks/useTransfer.js";
-export type { p2pTransferType } from "./hooks/useP2P.js";
-export type { TranxState } from "./hooks/useTranxList.js";
+export type { UserState } from "./hooks/useUser";
+export type { useTransferState } from "./hooks/useTransfer";
+export type { p2pTransferType } from "./hooks/useP2P";
+export type { TranxState } from "./hooks/useTranxList";
