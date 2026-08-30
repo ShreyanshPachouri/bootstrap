@@ -1,4 +1,4 @@
-import { PageHead } from "@repo/ui/PageHead"
+import { PageHead } from "../../../../../../packages/ui/src/PageHead"
 import { DashboardComponent } from "../../../../components/DashboardComponent"
 import { GraphComponent } from "../../../../components/GraphComponent"
 
