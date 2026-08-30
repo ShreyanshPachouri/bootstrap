@@ -4,7 +4,7 @@ import { prisma } from "@repo/db"
 import { authOptions } from "../auth"
 import { getServerSession } from "next-auth"
 
-export const onRampTransactions = async(provider: string, amount: number) => {
+export const createOnRampTransactions = async(provider: string, amount: number) => {
     const session = await getServerSession(authOptions)
 
     if(!session?.user.id){
