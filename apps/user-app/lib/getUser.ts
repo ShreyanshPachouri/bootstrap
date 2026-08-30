@@ -64,12 +64,12 @@ export const getUser = async (id: string) => {
         return {
             from: {
                 name: x.provider,
-                number: null
+                num: null
             },
 
             to: {
                 name: data.name,
-                number: data.number
+                num: data.number
             },
 
             amount: x.amount,
